@@ -1,0 +1,33 @@
+{
+  "name": "wallaby-879",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-879.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-879/issues"
+  },
+  "jest": {
+    "preset": "jest-react-native",
+    "resetMocks": true,
+    "resetModules": true,
+    "verbose": true
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-879#readme",
+  "devDependencies": {
+    "babel-jest": "^17.0.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-react-native": "^1.9.0",
+    "jest": "^17.0.3",
+    "jest-react-native": "^17.0.3",
+    "react-test-renderer": "^15.4.0"
+  }
+}
